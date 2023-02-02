@@ -30,8 +30,8 @@ Our Infrastructure will be modular and will consist of the following resources.
 9. Bastion host in a public subnet for SSH access into other servers.
 10. Internet gateway to be accessible to the public internet
 11. Nat Gateway to give internet access to the private subnet
-12. S3 Object storage will be used to store our terraform state. with state locking enabled.
-13. We shall use shell scripts to bootstrap our instances and instal all the prerequisites such as nginx,mysql,ansible,Apache etc
+12. S3 Object storage will be used to store our terraform state with state locking enabled. Dynamo DB will be used for this.
+13. We shall use shell scripts to bootstrap our instances and install all the prerequisites such as nginx,mysql,ansible,Apache etc
 
 ![3 Tier Project Image](./tooling_workachoo.png)
 
